@@ -3,6 +3,9 @@
 ## Table of Contents
 * [Problem Statement](#Problem-Statement)
 * [Approach](#Approach)
+* [Model Implementation](#Model-Implementation)
+* [Saving the Model](#Saving-the-Model)
+* [Deploying the model](#Deploying-the-model)
 
 
 
@@ -32,6 +35,16 @@
 
 ![image](https://user-images.githubusercontent.com/55452866/107492171-1f651100-6bb2-11eb-91a0-c2396b311e4e.png)
 
+## Model Implementation:
+I used Random Forest model to fit the dataset.Below are the metrics which i got.
+
+MAE: 0.9074563501808273
+
+MSE: 5.211188443191459
+
+RMSE: 2.282802760466059
+
+The R2 score which I got was 0.7849.
 
 
 
