@@ -49,5 +49,10 @@ The R2 score which I got was 0.7849.
 ## Saving the Model:
 I have saved the model with the help of pickle.The name of the model is random_forest_regression_model.
 
+## Deploying the model:
+I have used Flask frame work for deploying the machine learning model with the help of Heroku platform.You can predict the car saling price with the help of given heroku link.
+
+https://carpriceprediction950.herokuapp.com/
+
 
 
