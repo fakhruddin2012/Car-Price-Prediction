@@ -13,18 +13,21 @@
 
 ## Approach:
 ## Data Preprocessing:
--The dataset have 301 records and around 9 features.
+(1)The dataset have 301 records and around 9 features.
 
--The dataset does not have any null values.
+(2)The dataset does not have any null values.
 
--I have calculated the age of the car by subtracting the current year with the feature Year which is the year in which car hit the road.
+(3)I have calculated the age of the car by subtracting the current year with the feature Year which is the year in which car hit the road.
 
--Than I dropped the year columns as I have calculated the age of the car.
+(4)Than I dropped the year columns as I have calculated the age of the car.
 
--The dataset have some categorical columns to which I converted into numerical values with the help of pandas's get_dummies.
+(5)The dataset have some categorical columns to which I converted into numerical values with the help of pandas's get_dummies.
 
--To understand the data much more I calculated the correlation between the features.
+(6)To understand the data much more I calculated the correlation between the features.
 
--I used ExtraTreesRegressor to calculate which features plays important role.
+![image](https://user-images.githubusercontent.com/55452866/107491763-9b128e00-6bb1-11eb-8bdb-af10e93775f8.png)
+
+
+(7)I used ExtraTreesRegressor to calculate which features plays important role.
 
 
