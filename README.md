@@ -46,5 +46,8 @@ RMSE: 2.282802760466059
 
 The R2 score which I got was 0.7849.
 
+## Saving the Model:
+I have saved the model with the help of pickle.The name of the model is random_forest_regression_model.
+
 
 
